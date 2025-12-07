@@ -26,7 +26,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6">
-                About AttilaBuild (Attila Feher)
+                About AttilaBuild
               </h2>
               <p className="text-lg font-light text-black/75 mb-4">
                 Designer. Developer. Founder of Designaxe.
