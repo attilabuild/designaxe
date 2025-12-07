@@ -34,7 +34,7 @@ export default function Navigation() {
               Features
             </a>
             <a href="#my-work" className="text-sm font-light text-white/80 hover:text-white transition-colors">
-              my Work
+              My Work
             </a>
             <a href="#services" className="text-sm font-light text-white/80 hover:text-white transition-colors">
               Services

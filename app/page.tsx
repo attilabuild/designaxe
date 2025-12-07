@@ -378,14 +378,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="text-center">
-            <a 
-              href="#my-work"
-              className="inline-block px-6 py-3 rounded-full border border-black/20 bg-black/5 hover:bg-black/10 transition-colors text-black text-sm font-light tracking-tight"
-            >
-              See More Projects
-            </a>
-          </div>
+        
         </div>
       </section>
 
