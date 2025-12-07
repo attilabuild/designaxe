@@ -18,7 +18,7 @@ export default function Navigation() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled 
+      isScrolled || isMenuOpen
         ? 'bg-black/80 backdrop-blur-md border-b border-white/10' 
         : 'bg-transparent backdrop-blur-0 border-b border-transparent'
     }`}>
@@ -73,7 +73,7 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 space-y-4 border-t border-white/10">
+          <div className="md:hidden py-4 space-y-4 border-t border-white/10 bg-black">
             <a href="#features" className="block text-sm font-light text-white/80 hover:text-white transition-colors">
               Features
             </a>
