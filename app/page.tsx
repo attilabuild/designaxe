@@ -20,6 +20,46 @@ export default function Home() {
         microDetails={[]}
       />
 
+      {/* About AttilaBuild */}
+      <section id="about" className="bg-black py-24 px-6 md:px-10 lg:px-16">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6">
+                About AttilaBuild
+              </h2>
+              <p className="text-lg font-light text-white/75 mb-4">
+                Designer. Developer. Founder of Designaxe.
+              </p>
+              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+                I build digital products with a focus on simplicity, speed, and precision.
+              </p>
+              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+                I&apos;ve created platforms used by thousands of people : including PureResist, SkinMax, and ABCKocka : and developed commercial projects for startups and businesses across Europe and the US.
+              </p>
+              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+                I share my process, experiments, and product jmyney across Instagram, TikTok, Twitter, and more.
+              </p>
+              <p className="text-base font-light text-white/70 leading-relaxed mb-8">
+                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see how I build in public.
+              </p>
+              <p className="text-lg font-light text-white leading-relaxed mb-8 italic">
+                Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
+              </p>
+              <a 
+                href="#contact"
+                className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
+              >
+                Work With Me
+              </a>
+            </div>
+            <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-white/10 overflow-hidden">
+              <Image src="/attilabuild.jpeg" alt="AttilaBuild" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why People Choose Designaxe */}
       <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
@@ -193,61 +233,38 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Working With AttilaBuild */}
+      {/* Testimonials */}
       <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-8">
-            Working With AttilaBuild
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
+            Testimonials
           </h2>
-          <div className="space-y-6 text-base font-light text-black/70 leading-relaxed">
-            <p>
-              I value direct communication, honest timelines, and long-term relationships with founders who care about quality. My approach is simple: remove the unnecessary, focus on what matters, and ship fast.
-            </p>
-            <p>
-              My design philosophy is rooted in minimalism and intentionality. My engineering philosophy is based on clarity, scalability, and clean execution.
-            </p>
-            <p>
-              When we work together, you get transparency, predictable delivery, and results you can measure : not just pretty visuals.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* About AttilaBuild */}
-      <section id="about" className="bg-black py-24 px-6 md:px-10 lg:px-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6">
-                About AttilaBuild
-              </h2>
-              <p className="text-lg font-light text-white/75 mb-4">
-                Designer. Developer. Founder of Designaxe.
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-black/20 flex items-center justify-center overflow-hidden relative">
+                  <Image src="/jovan.jpg" alt="Jovan Popesku" fill className="object-cover rounded-full" />
+                </div>
+                <div>
+                  <p className="text-sm font-light text-black/80">Jovan Popesku</p>
+                </div>
+              </div>
+              <p className="text-sm font-light text-black/80 leading-relaxed italic">
+                &quot;Extremely fast and detail-oriented. The final result exceeded expectations.&quot;
               </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I build digital products with a focus on simplicity, speed, and precision.
-              </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I&apos;ve created platforms used by thousands of people : including PureResist, VibeGrower, and DebateVote : and developed commercial projects for startups and businesses across Europe and the US.
-              </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I share my process, experiments, and product jmyney across Instagram, TikTok, Twitter, and more.
-              </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-8">
-                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see how I build in public.
-              </p>
-              <p className="text-lg font-light text-white leading-relaxed mb-8 italic">
-                Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
-              </p>
-              <a 
-                href="#contact"
-                className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
-              >
-                Work With Me
-              </a>
             </div>
-            <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-white/10 overflow-hidden">
-              <Image src="/attilabuild.jpeg" alt="AttilaBuild" fill className="object-cover" />
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-black/20 flex items-center justify-center overflow-hidden relative">
+                  <Image src="/yanik.jpg" alt="Yanik_scaleup" fill className="object-cover rounded-full" />
+                </div>
+                <div>
+                  <p className="text-sm font-light text-black/80">Yanik_scaleup</p>
+                </div>
+              </div>
+              <p className="text-sm font-light text-black/80 leading-relaxed italic">
+                &quot;Clean design and fast delivery. Exactly what we needed for our MVP.&quot;
+              </p>
             </div>
           </div>
         </div>
@@ -265,8 +282,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/lingodroid.png" alt="LingoDroid" fill className="object-cover" />
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-light text-black mb-2 tracking-tight">LingoDroid</h3>
@@ -280,13 +297,13 @@ export default function Home() {
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/zenpuff.png" alt="BeHigh" fill className="object-cover" />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">PageGem</h3>
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">BeHigh</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  Linktree for Developers : a modern link-in-bio platform built for tech creators.
+                  A modern platform built for creators and developers.
                 </p>
                 <p className="text-xs font-light text-black/60">
                   : Web App · Developer Tools · Design
@@ -295,8 +312,8 @@ export default function Home() {
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/pureresist.png" alt="PureResist" fill className="object-cover" />
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-light text-black mb-2 tracking-tight">PureResist</h3>
@@ -313,52 +330,49 @@ export default function Home() {
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/wscrape.png" alt="WScrape" fill className="object-cover" />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">DesignAxe</h3>
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">WScrape</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  Software & Design Agency : modern digital products built with clarity and speed.
+                  A powerful web scraping and data extraction tool.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  : Web Design · Branding · Agency
+                  : Web App · Developer Tools · SaaS
                 </p>
               </div>
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/abckocka.png" alt="ABCKocka" fill className="object-cover" />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">DebateVote</h3>
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">ABCKocka</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  Online Debating Platform : structured debates with real-time voting logic.
+                  E-commerce site : a clean and reliable online store with modern UX.
                 </p>
                 <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Full system built end-to-end with scalable architecture.
+                  Increased conversions by 28% through trust-driven design.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  : Web App · Full-Stack Development · UX Architecture
+                  : E-Commerce · WordPress · Branding
                 </p>
               </div>
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Project Image</p>
+              <div className="aspect-video bg-black/5 relative overflow-hidden">
+                <Image src="/skinmaxapp.png" alt="SkinMax" fill className="object-cover" />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">VibeGrower</h3>
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">SkinMax</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  Marketing App : a tool helping indie developers scale efficiently.
-                </p>
-                <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Built scalable architecture supporting 5,000+ active users.
+                  A mobile app for maxing skin : skincare and skin health optimization platform.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  : Web Design · SaaS Architecture · Strategy
+                  : Mobile App · App Development · UX
                 </p>
               </div>
             </div>
@@ -427,8 +441,8 @@ export default function Home() {
           <div className="text-center">
             <a 
               href="https://calendly.com/designaxe/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-full bg-white text-black text-sm font-light tracking-tight hover:bg-white/90 transition-colors"
             >
               Book Consultation
@@ -555,7 +569,7 @@ export default function Home() {
               <NewsletterForm />
             </div>
           </div>
-        </div>
+    </div>
       </footer>
     </>
   );
