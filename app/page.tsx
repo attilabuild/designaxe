@@ -47,10 +47,12 @@ export default function Home() {
                 Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
               </p>
               <a 
-                href="#contact"
+                href="https://calendly.com/designaxe/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block px-6 py-3 rounded-full border border-black/20 bg-black/5 hover:bg-black/10 transition-colors text-black text-sm font-light tracking-tight"
               >
-                Work With Me
+                Book Free Consultation
               </a>
             </div>
             <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-black/10 overflow-hidden">
