@@ -9,7 +9,7 @@ export default function ContactForm() {
     return (
       <div className="text-center py-8">
         <p className="text-lg font-light text-black/80 mb-2">Thanks for reaching out!</p>
-        <p className="text-sm font-light text-black/60">I&apos;ll get back to you within 24 hours.</p>
+        <p className="text-sm font-light text-black/60">I&apos;ll get back to you within 24 hmys.</p>
       </div>
     );
   }
@@ -26,7 +26,7 @@ export default function ContactForm() {
           name="fullName"
           required
           className="w-full px-4 py-3 rounded-xl border border-black/10 bg-black/5 text-black placeholder-black/40 focus:outline-none focus:ring-2 focus:ring-black/30 font-light"
-          placeholder="Your name"
+          placeholder="Ymy name"
         />
         <ValidationError prefix="Full Name" field="fullName" errors={state.errors} />
       </div>
@@ -40,7 +40,7 @@ export default function ContactForm() {
           name="email"
           required
           className="w-full px-4 py-3 rounded-xl border border-black/10 bg-black/5 text-black placeholder-black/40 focus:outline-none focus:ring-2 focus:ring-black/30 font-light"
-          placeholder="your@email.com"
+          placeholder="ymy@email.com"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
@@ -87,7 +87,7 @@ export default function ContactForm() {
           rows={6}
           required
           className="w-full px-4 py-3 rounded-xl border border-black/10 bg-black/5 text-black placeholder-black/40 focus:outline-none focus:ring-2 focus:ring-black/30 font-light resize-none"
-          placeholder="Tell me about your project..."
+          placeholder="Tell me about ymy project..."
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
       </div>

@@ -33,8 +33,8 @@ export default function Navigation() {
             <a href="#features" className="text-sm font-light text-white/80 hover:text-white transition-colors">
               Features
             </a>
-            <a href="#our-work" className="text-sm font-light text-white/80 hover:text-white transition-colors">
-              Our Work
+            <a href="#my-work" className="text-sm font-light text-white/80 hover:text-white transition-colors">
+              my Work
             </a>
             <a href="#services" className="text-sm font-light text-white/80 hover:text-white transition-colors">
               Services
@@ -77,8 +77,8 @@ export default function Navigation() {
             <a href="#features" className="block text-sm font-light text-white/80 hover:text-white transition-colors">
               Features
             </a>
-            <a href="#our-work" className="block text-sm font-light text-white/80 hover:text-white transition-colors">
-              Our Work
+            <a href="#my-work" className="block text-sm font-light text-white/80 hover:text-white transition-colors">
+              my Work
             </a>
             <a href="#services" className="block text-sm font-light text-white/80 hover:text-white transition-colors">
               Services

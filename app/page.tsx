@@ -9,84 +9,85 @@ export default function Home() {
     <>
       <Navigation />
       <Hero 
-        title="Design That Hooks, Code That Delivers."
-        description="I'm AttilaBuild, founder of Designaxe. I help founders, creators, and businesses turn ideas into modern, fast, and conversion-focused digital products. From brand identity to complete websites and applications, every project is built with clarity, precision, and speed."
+        title="Design That Hooks. Code That Delivers."
+        description="I'm AttilaBuild, founder of Designaxe. I help founders, creators, and businesses turn raw ideas into clean, modern, and conversion-focused digital products. Whether you need a brand identity, a complete website, or a scalable application, everything is built with clarity, precision, and speed."
         badgeText="Built by AttilaBuild"
         badgeLabel=""
         ctaButtons={[
-          { text: "Book Your Free Consultation", href: "https://calendly.com/designaxe/30min", primary: true },
-          { text: "View Portfolio", href: "#our-work" }
+          { text: "Book  Free Consultation", href: "https://calendly.com/designaxe/30min", primary: true },
+          { text: "View Portfolio", href: "#my-work" }
         ]}
         microDetails={[]}
       />
 
-      {/* Social Proof */}
-    
-      {/* Why Founders Work With Designaxe */}
+      {/* Why People Choose Designaxe */}
       <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
-            Why People Work With Designaxe
+            Why People Choose Designaxe
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="flex items-start gap-4">
               <span className="text-2xl font-light text-black/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Expert collaboration with the founder</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Direct access to AttilaBuild: no layers, no outsourcing.</p>
+                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Direct collaboration with the founder</h3>
+                <p className="text-sm font-light text-black/60 leading-relaxed">You work with me : no outsmycing, no extra layers, no miscommunication.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-2xl font-light text-black/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">High-speed execution</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Most websites launch within a week. MVPs ship fast.</p>
+                <h3 className="text-lg font-light text-black mb-2 tracking-tight">High-speed delivery</h3>
+                <p className="text-sm font-light text-black/60 leading-relaxed">Most websites launch within a week. MVPs ship fast with a clean, modern stack.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-2xl font-light text-black/40">•</span>
               <div>
                 <h3 className="text-lg font-light text-black mb-2 tracking-tight">Minimal, timeless design</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Every element crafted with intention and purpose.</p>
+                <p className="text-sm font-light text-black/60 leading-relaxed">No clutter. No noise. Just purposeful aesthetics that communicate confidence.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-2xl font-light text-black/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Direct, transparent communication</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Clear updates, honest timelines, no surprises.</p>
+                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Transparent communication</h3>
+                <p className="text-sm font-light text-black/60 leading-relaxed">Clear updates, honest timelines, and a smooth, predictable workflow.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* What I Do */}
       <section id="features" className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-white mb-12 text-center">
+            What I Do
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Branding & Visual Identity</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Identity systems that communicate trust, consistency, and long-term recognition.
+                Identity systems that build trust, clarity, and recognition.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Web Design & Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Custom websites built with Next.js, React, or WordPress: structured and conversion-driven.
+                Custom websites built with Next.js, React, or WordPress : structured, fast, and conversion-driven.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">App & SaaS Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Clean UI, scalable architecture, and intuitive user experience from MVP to full product.
+                Modern UI, scalable architecture, and UX that feels natural from MVP to full product.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Digital Strategy & Conversion</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Landing pages, funnels, and UX improvements focused on measurable results.
+                Landing pages, funnels, and UX optimization designed to drive measurable results.
               </p>
             </div>
           </div>
@@ -97,21 +98,21 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
             >
-              Book Your Free Consultation
+              Book  Free Consultation
             </a>
           </div>
         </div>
       </section>
 
-      {/* Process Section - Visual */}
+      {/*  Vision, My System */}
       <section id="services" className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6">
-              Your Vision, Our System
+               Vision, My System
             </h2>
             <p className="text-lg font-light leading-relaxed text-black/70">
-              A structured approach designed for clarity and execution.
+              A structured process designed for clear direction and fast execution.
             </p>
           </div>
 
@@ -120,61 +121,61 @@ export default function Home() {
               <div className="text-3xl font-light text-black/20 mb-4">01</div>
               <h3 className="text-xl font-light text-black mb-4 tracking-tight">Consultation</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Clarity on goals, scope, and timeline through focused conversation.
+                A focused conversation to understand goals, challenges, scope, and timeline.
               </p>
             </div>
             <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
               <div className="text-3xl font-light text-black/20 mb-4">02</div>
               <h3 className="text-xl font-light text-black mb-4 tracking-tight">Blueprint</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Structure, sitemap, architecture, and wireframes mapped out clearly.
+                Wireframes, structure, technical stack, and a clear roadmap.
               </p>
             </div>
             <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
               <div className="text-3xl font-light text-black/20 mb-4">03</div>
               <h3 className="text-xl font-light text-black mb-4 tracking-tight">Build</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Design, development, and iteration with transparent communication.
+                Design, development, and iterative refinement with transparent communication.
               </p>
             </div>
             <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
               <div className="text-3xl font-light text-black/20 mb-4">04</div>
               <h3 className="text-xl font-light text-black mb-4 tracking-tight">Launch</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Optimization, analytics, and refinement for long-term success.
+                Deployment, optimization, analytics, and long-term support options.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Work With Me - Consultation Model */}
+      {/* Work With Me */}
       <section id="consultation" className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6 text-center">
             Work With Me
           </h2>
           <p className="text-lg font-light text-white/75 mb-12 text-center">
-            Every project begins with a free consultation designed to give you clarity, direction, and a concrete plan.
+            Every project begins with a consultation where you gain clarity, direction, and a concrete plan for  product.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Consultation</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                A focused conversation to understand your goals, challenges, timeline, and budget.
+                Understanding  priorities, constraints, and timeline.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Blueprint</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                A clear proposal outlining design direction, technical stack, structure, and timeline.
+                A refined proposal outlining design direction, UX flow, and technical decisions.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Build</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Execution with fast delivery, transparent communication, and precise iteration.
+                Execution with speed, precision, and continuous communication.
               </p>
             </div>
           </div>
@@ -186,7 +187,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 rounded-full bg-white text-black text-base font-light tracking-tight hover:bg-white/90 transition-colors"
             >
-              Book Your Free Consultation
+              Book  Free Consultation
             </a>
           </div>
         </div>
@@ -200,13 +201,13 @@ export default function Home() {
           </h2>
           <div className="space-y-6 text-base font-light text-black/70 leading-relaxed">
             <p>
-              I value direct communication, honest timelines, and building products that last. Every project is a collaboration where your vision meets my expertise in design and engineering.
+              I value direct communication, honest timelines, and long-term relationships with founders who care about quality. My approach is simple: remove the unnecessary, focus on what matters, and ship fast.
             </p>
             <p>
-              My design philosophy centers on minimalism and intention — removing the unnecessary to highlight what matters. I believe in shipping fast, iterating with precision, and maintaining long-term relationships with founders who value quality.
+              My design philosophy is rooted in minimalism and intentionality. My engineering philosophy is based on clarity, scalability, and clean execution.
             </p>
             <p>
-              You can expect transparent updates, clear timelines, and a focus on results that drive growth. No jargon, no delays, just clean execution.
+              When we work together, you get transparency, predictable delivery, and results you can measure : not just pretty visuals.
             </p>
           </div>
         </div>
@@ -218,19 +219,22 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6">
-                About Attila Feher
+                About AttilaBuild
               </h2>
               <p className="text-lg font-light text-white/75 mb-4">
-                Designer, developer, and founder of Designaxe
+                Designer. Developer. Founder of Designaxe.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I build products with a philosophy rooted in minimalism, speed, and precision.
+                I build digital products with a focus on simplicity, speed, and precision.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I&apos;ve built tools and platforms used by thousands of people, including PureResist, VibeGrower, and DebateVote, along with commercial projects for startups and businesses across Europe and the US.
+                I&apos;ve created platforms used by thousands of people : including PureResist, VibeGrower, and DebateVote : and developed commercial projects for startups and businesses across Europe and the US.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I document my journey building products and working with people on Instagram, TikTok, Twitter, and everywhere else — follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see the process behind the work.
+                I share my process, experiments, and product jmyney across Instagram, TikTok, Twitter, and more.
+              </p>
+              <p className="text-base font-light text-white/70 leading-relaxed mb-8">
+                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see how I build in public.
               </p>
               <p className="text-lg font-light text-white leading-relaxed mb-8 italic">
                 Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
@@ -243,112 +247,118 @@ export default function Home() {
               </a>
             </div>
             <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-white/10 overflow-hidden">
-              <Image src="/attilabuild.jpeg" alt="Attila Build" fill className="object-cover" />
+              <Image src="/attilabuild.jpeg" alt="AttilaBuild" fill className="object-cover" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Founder's Note */}
-      <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl md:text-2xl font-light text-black/80 leading-relaxed italic">
-            Great digital products aren&apos;t built with noise. They&apos;re built with clarity, intention, and fast execution. My work combines minimal design with clean engineering to help founders ship sooner and scale smarter.
-          </p>
-        </div>
-      </section>
-
-      {/* Testimonial */}
-      <section className="bg-black py-24 px-6 md:px-10 lg:px-16">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl font-light text-white/90 leading-relaxed mb-6 italic">
-            &quot;Attila is extremely fast, detail-oriented, and easy to work with. The final result looked better than we imagined.&quot;
-          </p>
-          <p className="text-sm font-light text-white/60">
-            — Founder, SaaS Platform
-          </p>
-        </div>
-      </section>
-
       {/* Portfolio Section */}
-      <section id="our-work" className="bg-white py-24 px-6 md:px-10 lg:px-16">
+      <section id="my-work" className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-4">
-            Our Work
+            My Work
           </h2>
           <p className="text-lg font-light text-black/70 mb-12">
             A curated selection of digital products, applications, and modern websites.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
               <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">PureResist Project Image</p>
+                <p className="text-black/40 text-sm font-light">Project Image</p>
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">LingoDroid</h3>
+                <p className="text-sm font-light text-black/70 mb-3">
+                  Learn languages easily with AI-powered language learning platform.
+                </p>
+                <p className="text-xs font-light text-black/60">
+                  : App Development · AI Integration · UX
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
+              <div className="aspect-video bg-black/5 flex items-center justify-center">
+                <p className="text-black/40 text-sm font-light">Project Image</p>
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">PageGem</h3>
+                <p className="text-sm font-light text-black/70 mb-3">
+                  Linktree for Developers : a modern link-in-bio platform built for tech creators.
+                </p>
+                <p className="text-xs font-light text-black/60">
+                  : Web App · Developer Tools · Design
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
+              <div className="aspect-video bg-black/5 flex items-center justify-center">
+                <p className="text-black/40 text-sm font-light">Project Image</p>
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-light text-black mb-2 tracking-tight">PureResist</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  A digital self-improvement platform helping users analyze behavior and break addiction.
+                  NoFap App : a digital self-improvement platform focused on breaking addiction patterns.
                 </p>
                 <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Increased retention by 32% with a cleaner onboarding flow and structured UX.
+                  Improved onboarding and retention by 32%.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  App Development • Branding • UX
+                  : App Development · Branding · UX
                 </p>
               </div>
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
               <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">VibeGrower Project Image</p>
+                <p className="text-black/40 text-sm font-light">Project Image</p>
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">VibeGrower</h3>
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">DesignAxe</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  A marketing tool designed to help indie developers scale their apps efficiently.
-                </p>
-                <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Built scalable architecture supporting 5,000+ active users with minimal infrastructure costs.
+                  Software & Design Agency : modern digital products built with clarity and speed.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  Web Design • SaaS Architecture • Strategy
+                  : Web Design · Branding · Agency
                 </p>
               </div>
             </div>
 
             <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
               <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">ABCKocka Project Image</p>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">ABCKocka</h3>
-                <p className="text-sm font-light text-black/70 mb-3">
-                  An e-commerce store focused on reliability, visual clarity, and trust.
-                </p>
-                <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Improved conversion rate by 28% through streamlined checkout and trust-building design elements.
-                </p>
-                <p className="text-xs font-light text-black/60">
-                  E-Commerce • WordPress • Branding
-                </p>
-              </div>
-            </div>
-
-            <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
-              <div className="aspect-video bg-black/5 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">DebateVote Project Image</p>
+                <p className="text-black/40 text-sm font-light">Project Image</p>
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-light text-black mb-2 tracking-tight">DebateVote</h3>
                 <p className="text-sm font-light text-black/70 mb-3">
-                  A structured debate platform for voting, ranking, and discussion.
+                  Online Debating Platform : structured debates with real-time voting logic.
                 </p>
                 <p className="text-xs font-light text-black/50 mb-3 italic">
-                  Built a full debate system with voting logic, categorization, and scalable architecture supporting real-time interactions.
+                  Full system built end-to-end with scalable architecture.
                 </p>
                 <p className="text-xs font-light text-black/60">
-                  Web App • Full Stack Development • UX Architecture
+                  : Web App · Full-Stack Development · UX Architecture
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-black/10 rounded-2xl overflow-hidden bg-white">
+              <div className="aspect-video bg-black/5 flex items-center justify-center">
+                <p className="text-black/40 text-sm font-light">Project Image</p>
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-light text-black mb-2 tracking-tight">VibeGrower</h3>
+                <p className="text-sm font-light text-black/70 mb-3">
+                  Marketing App : a tool helping indie developers scale efficiently.
+                </p>
+                <p className="text-xs font-light text-black/50 mb-3 italic">
+                  Built scalable architecture supporting 5,000+ active users.
+                </p>
+                <p className="text-xs font-light text-black/60">
+                  : Web Design · SaaS Architecture · Strategy
                 </p>
               </div>
             </div>
@@ -356,7 +366,7 @@ export default function Home() {
 
           <div className="text-center">
             <a 
-              href="#our-work"
+              href="#my-work"
               className="inline-block px-6 py-3 rounded-full border border-black/20 bg-black/5 hover:bg-black/10 transition-colors text-black text-sm font-light tracking-tight"
             >
               See More Projects
@@ -365,51 +375,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services - Full Detail */}
+      {/* Services */}
       <section className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-4">
             Services
           </h2>
           <p className="text-lg font-light text-white/75 mb-12">
-            All services are tailored to founders, startups, creators, and businesses seeking speed and clarity.
+            Tailored for founders, startups, creators, and businesses who value speed and clarity.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Branding & Identity Design</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Identity systems that communicate trust, consistency, and long-term recognition.
+                Trust-driven visuals built for long-term recognition.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Web Design & Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Custom websites built with Next.js, React, Vite, WordPress, or Shopify — structured and conversion-driven.
+                Next.js, React, Vite, WordPress, or Shopify : optimized for speed and conversions.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">App Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Native-feeling, scalable applications built with modern JavaScript stacks. Ideal for MVPs and growing products.
+                Modern, intuitive applications ideal for MVPs or full-scale products.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">SaaS Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Complete architecture including authentication, dashboards, payments, databases, and deployment.
+                Authentication, payments, dashboards, databases, deployment : complete systems.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Maintenance & Support</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Ongoing updates, performance enhancements, UX improvements, and monthly development support.
+                Ongoing updates, performance improvements, and UX refinement.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">E-Commerce Development</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
-                Complete online stores with Shopify, WooCommerce, or custom solutions. Payment integration and optimized checkout flows.
+                Shopify, WooCommerce, or custom solutions with optimized checkout flows.
               </p>
             </div>
           </div>
@@ -417,8 +427,8 @@ export default function Home() {
           <div className="text-center">
             <a 
               href="https://calendly.com/designaxe/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-full bg-white text-black text-sm font-light tracking-tight hover:bg-white/90 transition-colors"
             >
               Book Consultation
@@ -427,7 +437,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mini FAQ */}
+      {/* FAQ */}
       <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
@@ -437,31 +447,31 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-light text-black mb-2 tracking-tight">How fast can we start?</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Most projects begin within 48 hours after our initial consultation. I prioritize quick turnarounds without compromising quality.
+                Typically within 48 hmys after my initial consultation.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-light text-black mb-2 tracking-tight">What is the typical pricing?</h3>
+              <h3 className="text-lg font-light text-black mb-2 tracking-tight">What does pricing look like?</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Pricing varies by project scope and complexity. Most websites range from $1,000-$5,000, while apps and SaaS projects start higher. Every project includes a detailed proposal after consultation.
+                Websites usually range from $1,000–$5,000. Apps and SaaS products start higher depending on complexity.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-light text-black mb-2 tracking-tight">Do you work alone or with a team?</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                I work independently, which means you get direct access to the founder on every project. This eliminates communication layers and ensures faster decision-making.
+                I work independently, giving you direct access to the founder on every project.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-light text-black mb-2 tracking-tight">How does communication work?</h3>
+              <h3 className="text-lg font-light text-black mb-2 tracking-tight">How do we communicate?</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Direct communication via email and scheduled calls. I provide regular updates, share progress transparently, and respond to questions within 24 hours.
+                Email and scheduled calls. You receive consistent updates and fast replies.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-light text-black mb-2 tracking-tight">What does the timeline look like?</h3>
+              <h3 className="text-lg font-light text-black mb-2 tracking-tight">What is the typical timeline?</h3>
               <p className="text-sm font-light text-black/70 leading-relaxed">
-                Most websites launch within a week. Apps and MVPs typically take 2-4 weeks depending on complexity. I provide detailed timelines during the blueprint phase.
+                Most websites launch within a week. Apps and MVPs usually take 2–4 weeks.
               </p>
             </div>
           </div>
@@ -475,7 +485,7 @@ export default function Home() {
             Let&apos;s Build Something Meaningful
           </h2>
           <p className="text-lg font-light text-white/75 mb-8 leading-relaxed">
-            Share your idea, timeline, and goals. I&apos;ll review everything and reply within 24 hours.
+            Share  idea, timeline, and goals. <br></br>I personally read every message and respond within 24 hmys.
           </p>
           <a 
             href="https://calendly.com/designaxe/30min"
@@ -483,7 +493,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 rounded-full bg-white text-black text-base font-light tracking-tight hover:bg-white/90 transition-colors"
           >
-            Book Your Free Consultation
+            Book  Free Consultation
           </a>
         </div>
       </section>
@@ -495,7 +505,7 @@ export default function Home() {
             Contact
           </h2>
           <p className="text-base font-light text-black/70 mb-12 text-center">
-            Tell me what you want to build — I read every message personally and reply within 24 hours.
+            Tell me what you want to build : I&apos;ll get back to you within 24 hmys.
           </p>
 
           <ContactForm />
@@ -508,6 +518,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12 mb-12">
             <div>
               <h3 className="text-xl font-light text-white mb-3 tracking-tight">DESIGNAXE</h3>
+              <p className="text-sm font-light text-white/60 mb-2">
+                Design That Hooks. Code That Delivers.
+              </p>
               <p className="text-sm font-light text-white/60 mb-2">
                 Digital Products by AttilaBuild
               </p>
@@ -530,28 +543,19 @@ export default function Home() {
               <h4 className="text-sm font-light text-white/80 mb-4 tracking-tight">Navigation</h4>
               <nav className="flex flex-col gap-3 text-sm font-light text-white/60">
                 <a href="#features" className="hover:text-white/80 transition-colors">Features</a>
-                <a href="#our-work" className="hover:text-white/80 transition-colors">Our Work</a>
+                <a href="#my-work" className="hover:text-white/80 transition-colors">My Work</a>
                 <a href="#services" className="hover:text-white/80 transition-colors">Services</a>
                 <a href="#about" className="hover:text-white/80 transition-colors">About</a>
                 <a href="#contact" className="hover:text-white/80 transition-colors">Contact</a>
+                <a href="#contact" className="hover:text-white/80 transition-colors">Newsletter</a>
               </nav>
             </div>
             <div>
-              <h4 className="text-sm font-light text-white/80 mb-4 tracking-tight">Newsletter</h4>
+              <h4 className="text-sm font-light text-white/80 mb-4 tracking-tight">Subscribe</h4>
               <NewsletterForm />
             </div>
           </div>
-          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex gap-4 text-sm font-light text-white/60">
-              <a href="#" className="hover:text-white/80 transition-colors">Privacy Policy</a>
-              <span>•</span>
-              <a href="#" className="hover:text-white/80 transition-colors">Terms</a>
-            </div>
-            <p className="text-sm font-light text-white/60">
-              © 2025 Designaxe. All rights reserved.
-            </p>
-          </div>
-    </div>
+        </div>
       </footer>
     </>
   );

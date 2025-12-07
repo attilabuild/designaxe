@@ -10,7 +10,7 @@ export default function DemoOne() {
 
         title="Where algorithms become art."
 
-        description="A minimal hero with a neural canvas — crisp, elegant, and quietly expressive. Built with React, Three.js, and a custom CPPN shader."
+        description="A minimal hero with a neural canvas : crisp, elegant, and quietly expressive. Built with React, Three.js, and a custom CPPN shader."
 
         badgeText="Generative Surfaces"
 
