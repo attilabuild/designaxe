@@ -46,7 +46,9 @@ export default function Navigation() {
               Contact
             </a>
             <a 
-              href="#consultation" 
+              href="https://calendly.com/designaxe/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-light px-4 py-2 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white"
             >
               Book Consultation
@@ -88,7 +90,9 @@ export default function Navigation() {
               Contact
             </a>
             <a 
-              href="#consultation" 
+              href="https://calendly.com/designaxe/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block text-sm font-light px-4 py-2 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-center"
             >
               Book Consultation
