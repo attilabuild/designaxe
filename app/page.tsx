@@ -21,39 +21,39 @@ export default function Home() {
       />
 
       {/* About AttilaBuild */}
-      <section id="about" className="bg-black py-24 px-6 md:px-10 lg:px-16">
+      <section id="about" className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6">
+              <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6">
                 About AttilaBuild
               </h2>
-              <p className="text-lg font-light text-white/75 mb-4">
+              <p className="text-lg font-light text-black/75 mb-4">
                 Designer. Developer. Founder of Designaxe.
               </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+              <p className="text-base font-light text-black/70 leading-relaxed mb-6">
                 I build digital products with a focus on simplicity, speed, and precision.
               </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+              <p className="text-base font-light text-black/70 leading-relaxed mb-6">
                 I&apos;ve created platforms used by thousands of people : including PureResist, SkinMax, and ABCKocka : and developed commercial projects for startups and businesses across Europe and the US.
               </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-6">
+              <p className="text-base font-light text-black/70 leading-relaxed mb-6">
                 I share my process, experiments, and product jmyney across Instagram, TikTok, Twitter, and more.
               </p>
-              <p className="text-base font-light text-white/70 leading-relaxed mb-8">
-                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see how I build in public.
+              <p className="text-base font-light text-black/70 leading-relaxed mb-8">
+                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/80 transition-colors">@attilabuild</a> to see how I build in public.
               </p>
-              <p className="text-lg font-light text-white leading-relaxed mb-8 italic">
+              <p className="text-lg font-light text-black leading-relaxed mb-8 italic">
                 Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
               </p>
               <a 
                 href="#contact"
-                className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
+                className="inline-block px-6 py-3 rounded-full border border-black/20 bg-black/5 hover:bg-black/10 transition-colors text-black text-sm font-light tracking-tight"
               >
                 Work With Me
               </a>
             </div>
-            <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-white/10 overflow-hidden">
+            <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-black/10 overflow-hidden">
               <Image src="/attilabuild.jpeg" alt="AttilaBuild" fill className="object-cover" />
             </div>
           </div>
@@ -61,38 +61,38 @@ export default function Home() {
       </section>
 
       {/* Why People Choose Designaxe */}
-      <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
+      <section className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-white mb-12 text-center">
             Why People Choose Designaxe
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex items-start gap-4">
-              <span className="text-2xl font-light text-black/40">•</span>
+              <span className="text-2xl font-light text-white/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Direct collaboration with the founder</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">You work with me : no outsmycing, no extra layers, no miscommunication.</p>
+                <h3 className="text-lg font-light text-white mb-2 tracking-tight">Direct collaboration with the founder</h3>
+                <p className="text-sm font-light text-white/60 leading-relaxed">You work with me : no outsmycing, no extra layers, no miscommunication.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <span className="text-2xl font-light text-black/40">•</span>
+              <span className="text-2xl font-light text-white/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">High-speed delivery</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Most websites launch within a week. MVPs ship fast with a clean, modern stack.</p>
+                <h3 className="text-lg font-light text-white mb-2 tracking-tight">High-speed delivery</h3>
+                <p className="text-sm font-light text-white/60 leading-relaxed">Most websites launch within a week. MVPs ship fast with a clean, modern stack.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <span className="text-2xl font-light text-black/40">•</span>
+              <span className="text-2xl font-light text-white/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Minimal, timeless design</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">No clutter. No noise. Just purposeful aesthetics that communicate confidence.</p>
+                <h3 className="text-lg font-light text-white mb-2 tracking-tight">Minimal, timeless design</h3>
+                <p className="text-sm font-light text-white/60 leading-relaxed">No clutter. No noise. Just purposeful aesthetics that communicate confidence.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <span className="text-2xl font-light text-black/40">•</span>
+              <span className="text-2xl font-light text-white/40">•</span>
               <div>
-                <h3 className="text-lg font-light text-black mb-2 tracking-tight">Transparent communication</h3>
-                <p className="text-sm font-light text-black/60 leading-relaxed">Clear updates, honest timelines, and a smooth, predictable workflow.</p>
+                <h3 className="text-lg font-light text-white mb-2 tracking-tight">Transparent communication</h3>
+                <p className="text-sm font-light text-white/60 leading-relaxed">Clear updates, honest timelines, and a smooth, predictable workflow.</p>
               </div>
             </div>
           </div>
@@ -100,33 +100,33 @@ export default function Home() {
       </section>
 
       {/* What I Do */}
-      <section id="features" className="bg-black py-24 px-6 md:px-10 lg:px-16">
+      <section id="features" className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-white mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
             What I Do
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Branding & Visual Identity</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Branding & Visual Identity</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Identity systems that build trust, clarity, and recognition.
               </p>
             </div>
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Web Design & Development</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Web Design & Development</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Custom websites built with Next.js, React, or WordPress : structured, fast, and conversion-driven.
               </p>
             </div>
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">App & SaaS Development</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">App & SaaS Development</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Modern UI, scalable architecture, and UX that feels natural from MVP to full product.
               </p>
             </div>
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Digital Strategy & Conversion</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Digital Strategy & Conversion</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Landing pages, funnels, and UX optimization designed to drive measurable results.
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
               href="https://calendly.com/designaxe/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
+              className="inline-block px-6 py-3 rounded-full border border-black/20 bg-black/5 hover:bg-black/10 transition-colors text-black text-sm font-light tracking-tight"
             >
               Book  Free Consultation
             </a>
@@ -145,43 +145,43 @@ export default function Home() {
       </section>
 
       {/*  Vision, My System */}
-      <section id="services" className="bg-white py-24 px-6 md:px-10 lg:px-16">
+      <section id="services" className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
-            <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6">
+            <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6">
                Vision, My System
             </h2>
-            <p className="text-lg font-light leading-relaxed text-black/70">
+            <p className="text-lg font-light leading-relaxed text-white/70">
               A structured process designed for clear direction and fast execution.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
-              <div className="text-3xl font-light text-black/20 mb-4">01</div>
-              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Consultation</h3>
-              <p className="text-sm font-light text-black/70 leading-relaxed">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
+              <div className="text-3xl font-light text-white/20 mb-4">01</div>
+              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Consultation</h3>
+              <p className="text-sm font-light text-white/70 leading-relaxed">
                 A focused conversation to understand goals, challenges, scope, and timeline.
               </p>
             </div>
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
-              <div className="text-3xl font-light text-black/20 mb-4">02</div>
-              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Blueprint</h3>
-              <p className="text-sm font-light text-black/70 leading-relaxed">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
+              <div className="text-3xl font-light text-white/20 mb-4">02</div>
+              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Blueprint</h3>
+              <p className="text-sm font-light text-white/70 leading-relaxed">
                 Wireframes, structure, technical stack, and a clear roadmap.
               </p>
             </div>
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
-              <div className="text-3xl font-light text-black/20 mb-4">03</div>
-              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Build</h3>
-              <p className="text-sm font-light text-black/70 leading-relaxed">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
+              <div className="text-3xl font-light text-white/20 mb-4">03</div>
+              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Build</h3>
+              <p className="text-sm font-light text-white/70 leading-relaxed">
                 Design, development, and iterative refinement with transparent communication.
               </p>
             </div>
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
-              <div className="text-3xl font-light text-black/20 mb-4">04</div>
-              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Launch</h3>
-              <p className="text-sm font-light text-black/70 leading-relaxed">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
+              <div className="text-3xl font-light text-white/20 mb-4">04</div>
+              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Launch</h3>
+              <p className="text-sm font-light text-white/70 leading-relaxed">
                 Deployment, optimization, analytics, and long-term support options.
               </p>
             </div>
@@ -190,31 +190,31 @@ export default function Home() {
       </section>
 
       {/* Work With Me */}
-      <section id="consultation" className="bg-black py-24 px-6 md:px-10 lg:px-16">
+      <section id="consultation" className="bg-white py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-white mb-6 text-center">
+          <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6 text-center">
             Work With Me
           </h2>
-          <p className="text-lg font-light text-white/75 mb-12 text-center">
+          <p className="text-lg font-light text-black/70 mb-12 text-center">
             Every project begins with a consultation where you gain clarity, direction, and a concrete plan for  product.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Consultation</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5 text-center">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Consultation</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Understanding  priorities, constraints, and timeline.
               </p>
             </div>
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Blueprint</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5 text-center">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Blueprint</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 A refined proposal outlining design direction, UX flow, and technical decisions.
               </p>
             </div>
-            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm text-center">
-              <h3 className="text-xl font-light text-white mb-4 tracking-tight">Build</h3>
-              <p className="text-sm font-light text-white/70 leading-relaxed">
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5 text-center">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">Build</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
                 Execution with speed, precision, and continuous communication.
               </p>
             </div>
@@ -225,7 +225,7 @@ export default function Home() {
               href="https://calendly.com/designaxe/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-4 rounded-full bg-white text-black text-base font-light tracking-tight hover:bg-white/90 transition-colors"
+              className="inline-block px-8 py-4 rounded-full bg-black text-white text-base font-light tracking-tight hover:bg-black/90 transition-colors"
             >
               Book  Free Consultation
             </a>
@@ -234,35 +234,35 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-white py-24 px-6 md:px-10 lg:px-16">
+      <section className="bg-black py-24 px-6 md:px-10 lg:px-16">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-black mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-extralight leading-tight tracking-tight text-white mb-12 text-center">
             Testimonials
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 rounded-full bg-black/20 flex items-center justify-center overflow-hidden relative">
+                <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center overflow-hidden relative">
                   <Image src="/jovan.jpg" alt="Jovan Popesku" fill className="object-cover rounded-full" />
                 </div>
                 <div>
-                  <p className="text-sm font-light text-black/80">Jovan Popesku</p>
+                  <p className="text-sm font-light text-white/80">Jovan Popesku</p>
                 </div>
               </div>
-              <p className="text-sm font-light text-black/80 leading-relaxed italic">
+              <p className="text-sm font-light text-white/80 leading-relaxed italic">
                 &quot;Extremely fast and detail-oriented. The final result exceeded expectations.&quot;
               </p>
             </div>
-            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+            <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 rounded-full bg-black/20 flex items-center justify-center overflow-hidden relative">
+                <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center overflow-hidden relative">
                   <Image src="/yanik.jpg" alt="Yanik_scaleup" fill className="object-cover rounded-full" />
                 </div>
                 <div>
-                  <p className="text-sm font-light text-black/80">Yanik_scaleup</p>
+                  <p className="text-sm font-light text-white/80">Yanik_scaleup</p>
                 </div>
               </div>
-              <p className="text-sm font-light text-black/80 leading-relaxed italic">
+              <p className="text-sm font-light text-white/80 leading-relaxed italic">
                 &quot;Clean design and fast delivery. Exactly what we needed for our MVP.&quot;
               </p>
             </div>
