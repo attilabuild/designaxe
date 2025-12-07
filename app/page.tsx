@@ -1,5 +1,6 @@
 import Hero from "@/components/ui/neural-network-hero";
 import Navigation from "@/components/ui/navigation";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
       <Hero 
         title="Design That Hooks. Code That Delivers."
         description="I'm Attila Build, founder of Designaxe. I help founders, creators, and businesses turn ideas into modern, fast, and conversion-focused digital products. From brand identity to complete websites and applications, every project is built with clarity, precision, and speed."
-        badgeText="Built by Attila Build"
-        badgeLabel="New"
+        badgeText="Built by AttilaBuild"
+        badgeLabel=""
         ctaButtons={[
           { text: "Book Your Free Consultation", href: "#consultation", primary: true },
           { text: "View Portfolio", href: "#our-work" }
@@ -176,7 +177,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-extralight leading-tight tracking-tight text-black mb-6">
-                About Attila Build
+                About AttilaBuild
               </h2>
               <p className="text-lg font-light text-black/75 mb-4">
                 Founder & Lead Developer of Designaxe
@@ -201,9 +202,7 @@ export default function Home() {
               </a>
             </div>
             <div className="relative aspect-4/5 bg-black/5 rounded-2xl border border-black/10 overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-black/40 text-sm font-light">Professional Portrait Photo</p>
-              </div>
+              <Image src="/attilabuild.jpeg" alt="Attila Build" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -333,6 +332,12 @@ export default function Home() {
                 Ongoing updates, performance enhancements, UX improvements, and monthly development support when needed.
               </p>
             </div>
+            <div className="border border-black/10 rounded-2xl p-8 bg-black/5">
+              <h3 className="text-xl font-light text-black mb-4 tracking-tight">E-Commerce Development</h3>
+              <p className="text-sm font-light text-black/70 leading-relaxed">
+                Complete online stores built with Shopify, WooCommerce, or custom solutions. Payment integration, inventory management, and conversion-optimized checkout flows.
+              </p>
+            </div>
           </div>
 
           <div className="text-center">
@@ -406,10 +411,10 @@ export default function Home() {
                 className="w-full px-4 py-3 rounded-xl border border-black/10 bg-black/5 text-black focus:outline-none focus:ring-2 focus:ring-black/30 font-light"
               >
                 <option value="">Select budget range</option>
-                <option value="under-5k">Under $5,000</option>
-                <option value="5k-10k">$5,000 - $10,000</option>
-                <option value="10k-25k">$10,000 - $25,000</option>
-                <option value="25k-plus">$25,000+</option>
+                <option value="under-1k">Under $1,000</option>
+                <option value="1k-3k">$1,000 - $3,000</option>
+                <option value="3k-5k">$3,000 - $5,000</option>
+                <option value="5k-plus">$5,000+</option>
               </select>
             </div>
             <div>
@@ -469,7 +474,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-light text-white mb-2 tracking-tight">DESIGNAXE</h3>
               <p className="text-sm font-light text-white/60 mb-4">
-                Founded by Attila Build
+                Founded by AttilaBuild
               </p>
               <div className="flex gap-4">
                 <a href="#" className="text-sm font-light text-white/60 hover:text-white/80 transition-colors">
