@@ -14,7 +14,7 @@ export default function Home() {
         badgeText="Built by AttilaBuild"
         badgeLabel=""
         ctaButtons={[
-          { text: "Book  Free Consultation", href: "https://calendly.com/designaxe/30min", primary: true },
+          { text: "Book A Free Consultation", href: "https://calendly.com/designaxe/30min", primary: true },
           { text: "View Portfolio", href: "#my-work" }
         ]}
         microDetails={[]}
@@ -35,13 +35,13 @@ export default function Home() {
                 I build digital products with a focus on simplicity, speed, and precision.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-6">
-                I&apos;ve created platforms used by thousands of people : including PureResist, SkinMax, and ABCKocka : and developed commercial projects for startups and businesses across Europe and the US.
+                I&apos;ve created platforms used by thousands of people including PureResist, SkinMax, and ABCKocka and developed commercial projects for startups and businesses across Europe and the US.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-6">
                 I share my process, experiments, and product jmyney across Instagram, TikTok, Twitter, and more.
               </p>
               <p className="text-base font-light text-white/70 leading-relaxed mb-8">
-                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">@attilabuild</a> to see how I build in public.
+                Follow <a href="https://instagram.com/attilabuild" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 transition-colors">attilabuild</a> to see how I build in public.
               </p>
               <p className="text-lg font-light text-white leading-relaxed mb-8 italic">
                 Remove the unnecessary. Build what matters. Ship fast. Iterate with precision.
@@ -52,7 +52,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition-colors text-white text-sm font-light tracking-tight"
               >
-                Book Free Consultation
+                Book A Free Consultation
               </a>
             </div>
             <div className="relative aspect-4/5 bg-white/5 rounded-2xl border border-white/10 overflow-hidden">
@@ -160,28 +160,28 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <div className="text-3xl font-light text-white/20 mb-4">01</div>
+              <div className="text-3xl font-light text-white/20 mb-4">I</div>
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Consultation</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
                 A focused conversation to understand goals, challenges, scope, and timeline.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <div className="text-3xl font-light text-white/20 mb-4">02</div>
+              <div className="text-3xl font-light text-white/20 mb-4">II</div>
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Blueprint</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
                 Wireframes, structure, technical stack, and a clear roadmap.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <div className="text-3xl font-light text-white/20 mb-4">03</div>
+              <div className="text-3xl font-light text-white/20 mb-4">III</div>
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Build</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
                 Design, development, and iterative refinement with transparent communication.
               </p>
             </div>
             <div className="border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
-              <div className="text-3xl font-light text-white/20 mb-4">04</div>
+              <div className="text-3xl font-light text-white/20 mb-4">IV</div>
               <h3 className="text-xl font-light text-white mb-4 tracking-tight">Launch</h3>
               <p className="text-sm font-light text-white/70 leading-relaxed">
                 Deployment, optimization, analytics, and long-term support options.
@@ -261,7 +261,7 @@ export default function Home() {
                   <Image src="/yanik.jpg" alt="Yanik_scaleup" fill className="object-cover rounded-full" />
                 </div>
                 <div>
-                  <p className="text-sm font-light text-white/80">Yanik_scaleup</p>
+                  <p className="text-sm font-light text-white/80">Yanik Scaleup</p>
                 </div>
               </div>
               <p className="text-sm font-light text-white/80 leading-relaxed italic">
@@ -293,7 +293,7 @@ export default function Home() {
                   Learn languages easily with AI-powered language learning platform.
                 </p>
                 <p className="text-xs font-light text-white/60">
-                  : App Development · AI Integration · UX
+                  App Development · AI Integration · UX
                 </p>
               </div>
             </div>
@@ -308,7 +308,7 @@ export default function Home() {
                   A modern platform built for creators and developers.
                 </p>
                 <p className="text-xs font-light text-white/60">
-                  : Web App · Developer Tools · Design
+                  Web App · Developer Tools · Design
                 </p>
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
                   Improved onboarding and retention by 32%.
                 </p>
                 <p className="text-xs font-light text-white/60">
-                  : App Development · Branding · UX
+                  App Development · Branding · UX
                 </p>
               </div>
             </div>
@@ -341,7 +341,7 @@ export default function Home() {
                   A powerful web scraping and data extraction tool.
                 </p>
                 <p className="text-xs font-light text-white/60">
-                  : Web App · Developer Tools · SaaS
+                  Web App · Developer Tools · SaaS
                 </p>
               </div>
             </div>
@@ -359,7 +359,7 @@ export default function Home() {
                   Increased conversions by 28% through trust-driven design.
                 </p>
                 <p className="text-xs font-light text-white/60">
-                  : E-Commerce · WordPress · Branding
+                  E-Commerce · WordPress · Branding
                 </p>
               </div>
             </div>
@@ -372,9 +372,9 @@ export default function Home() {
                 <h3 className="text-2xl font-light text-white mb-2 tracking-tight">SkinMax</h3>
                 <p className="text-sm font-light text-white/70 mb-3">
                   A mobile app for maxing skin : skincare and skin health optimization platform.
-                </p>
+          </p>
                 <p className="text-xs font-light text-white/60">
-                  : Mobile App · App Development · UX
+                  Mobile App · App Development · UX
                 </p>
               </div>
             </div>
@@ -494,7 +494,7 @@ export default function Home() {
             Let&apos;s Build Something Meaningful
           </h2>
           <p className="text-lg font-light text-white/75 mb-8 leading-relaxed">
-            Share  idea, timeline, and goals. <br></br>I personally read every message and respond within 24 hmys.
+            Share  idea, timeline, and goals. <br></br>I personally read every message message.
           </p>
           <a 
             href="https://calendly.com/designaxe/30min"
@@ -514,7 +514,7 @@ export default function Home() {
             Contact
           </h2>
           <p className="text-base font-light text-white/70 mb-12 text-center">
-            Tell me what you want to build : I&apos;ll get back to you within 24 hmys.
+            Tell me what you want to build : I&apos;ll get back to you within a day.
           </p>
 
           <ContactForm />

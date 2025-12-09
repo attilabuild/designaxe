@@ -24,7 +24,7 @@ export default function Navigation() {
     }`}>
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
         <div className="flex items-center justify-between h-16">
-          <a href="/" className="text-xl font-light tracking-tight text-white">
+          <a href="/" className="text-xl font-bold tracking-tight text-white">
             DESIGNAXE
           </a>
           

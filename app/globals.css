@@ -18,8 +18,16 @@
   }
 }
 
+/* System font for special characters using unicode-range */
+@font-face {
+  font-family: 'SystemSpecialChars';
+  src: local('Arial'), local('Helvetica');
+  unicode-range: U+0040, U+002D, U+0022, U+0026, U+0027, U+2013, U+2014, U+201C, U+201D, U+2018, U+2019;
+  font-display: swap;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-power-grotesk), sans-serif;
+  font-family: 'SystemSpecialChars', var(--font-power-grotesk), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
