@@ -1,8 +1,94 @@
 import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
-import { GeistMono } from "geist/font/mono";
+import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
+
+const powerGrotesk = localFont({
+  src: [
+    {
+      path: "../font/fonnts.com-powergrotesk-ultralight.otf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-ultralightitalic.otf",
+      weight: "100",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-lightitalic.otf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-italic.otf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-mediumitalic.otf",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-bolditalic.otf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-ultrabold.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-ultrabolditalic.otf",
+      weight: "800",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-heavy.otf",
+      weight: "900",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-heavyitalic.otf",
+      weight: "900",
+      style: "italic",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-black.otf",
+      weight: "950",
+      style: "normal",
+    },
+    {
+      path: "../font/fonnts.com-powergrotesk-blackitalic.otf",
+      weight: "950",
+      style: "italic",
+    },
+  ],
+  variable: "--font-power-grotesk",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -96,7 +182,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}
+        className={`${powerGrotesk.variable} antialiased`}
       >
         {children}
         <Analytics />
