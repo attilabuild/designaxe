@@ -132,7 +132,7 @@ export const metadata: Metadata = {
     siteName: "Designaxe",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/metaog.png",
         width: 1200,
         height: 630,
         alt: "Designaxe - Design That Hooks. Code That Delivers.",
@@ -144,7 +144,7 @@ export const metadata: Metadata = {
     title: "Designaxe : Design That Hooks. Code That Delivers.",
     description: "I'm AttilaBuild, founder of Designaxe. I help founders, creators, and businesses turn raw ideas into clean, modern, and conversion-focused digital products.",
     creator: "@attilabuild",
-    images: ["/og-image.jpg"],
+    images: ["/metaog.png"],
   },
   robots: {
     index: true,
