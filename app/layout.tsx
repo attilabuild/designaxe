@@ -92,7 +92,7 @@ const powerGrotesk = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Designaxe : Design That Hooks. Code That Delivers.",
+    default: "DesigAxe : Design That Hooks. Code That Delivers.",
     template: "%s | Designaxe"
   },
   description: "I'm AttilaBuild, founder of Designaxe. I help founders, creators, and businesses turn raw ideas into clean, modern, and conversion-focused digital products. From brand identity to complete websites and applications, everything is built with clarity, precision, and speed.",
@@ -135,7 +135,7 @@ export const metadata: Metadata = {
         url: "/metaog.png",
         width: 1200,
         height: 630,
-        alt: "Designaxe - Design That Hooks. Code That Delivers.",
+        alt: "DesigAaxe - Design That Hooks. Code That Delivers.",
       },
     ],
   },
